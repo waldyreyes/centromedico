@@ -62,10 +62,9 @@
                                     <label for="email">Correo Electrónico</label>
                                     <input type="email" class="form-control" id="email" name="email" placeholder="Enter email" value="">
                                   </div>
-                                  <div class="form-group col-sm-12 col-md-4">
-                                    <label for="password">Contraseña</label>
-                                    <input type="password" class="form-control" id="password" placeholder="Contraseña" name="password" value="">
-                                  </div>
+
+                                  
+                                  
                                   <!--<div class="form-group col-sm-12 col-md-4">-->
                                   <!--    <label for="password_confirm">Confirmar Contraseña</label>-->
                                   <!--    <input type="password" class="form-control" id="password_confirm" placeholder="Confirmar Contraseña" name="password_confirm">-->

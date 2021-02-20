@@ -86,11 +86,11 @@
                                     <div class="card">
                                     <label for="cedula">HTA</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="HTA">
+                                        <input class="form-check-input" type="radio" name="hta" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="HTA" checked>
+                                        <input class="form-check-input" type="radio" name="hta"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -103,11 +103,11 @@
                                     <div class="card">
                                     <label for="cedula">Diabetes Mellitus</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="mellitus" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="mellitus" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -119,11 +119,11 @@
                                     <div class="card">
                                     <label for="cedula">EVC</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="evc">
+                                        <input class="form-check-input" type="radio" name="evc" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="evc" checked>
+                                        <input class="form-check-input" type="radio" name="evc" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -135,11 +135,11 @@
                                     <div class="card">
                                     <label for="cedula">Cardiopatia Isquémica</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="cardiopatiaisquemica">
+                                        <input class="form-check-input" type="radio" name="cardiopatiaisquemica" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="cardiopatiaisquemica" checked>
+                                        <input class="form-check-input" type="radio" name="cardiopatiaisquemica" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -151,11 +151,11 @@
                                     <div class="card">
                                     <label for="cedula">Insuficiencia Cardiaca</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="insuficienciacardiaca">
+                                        <input class="form-check-input" type="radio" name="insuficienciacardiaca" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="insuficienciacardiaca" checked>
+                                        <input class="form-check-input" type="radio" name="insuficienciacardiaca" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -167,11 +167,11 @@
                                     <div class="card">
                                     <label for="cedula">Arritmias</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="arritmias">
+                                        <input class="form-check-input" type="radio" name="arritmias" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="arritmias" checked>
+                                        <input class="form-check-input" type="radio" name="arritmias"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -183,11 +183,11 @@
                                     <div class="card">
                                     <label for="cedula">Enfermedad arterial periférica y carotidea</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="eapca">
+                                        <input class="form-check-input" type="radio" name="eapca" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="eapca" checked>
+                                        <input class="form-check-input" type="radio" name="eapca"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -199,11 +199,11 @@
                                     <div class="card">
                                     <label for="cedula">Insuficiencia renal</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="insuficienciarenal">
+                                        <input class="form-check-input" type="radio" name="insuficienciarenal" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="insuficienciarenal" checked>
+                                        <input class="form-check-input" type="radio" name="insuficienciarenal"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -215,11 +215,11 @@
                                     <div class="card">
                                     <label for="cedula">Síncope</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="sincope" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="sincope"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -231,11 +231,11 @@
                                     <div class="card">
                                     <label for="cedula">Asma Bronquial</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="asmabronquial" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="asmabronquial"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -248,11 +248,11 @@
                                     <div class="card">
                                     <label for="cedula">Enfermedades Inmunológicas o hematológicas</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="eihe" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="eihe"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -264,11 +264,11 @@
                                     <div class="card">
                                     <label for="cedula">Hepatopatias</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="hepatopatias" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="hepatopatias" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -279,12 +279,12 @@
                                     <div class="card">
                                     <label for="cedula">Ulcera Glastrica, </label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
-                                        <label class="form-check-label">Si</label>
+                                        <input class="form-check-input" type="radio" name="ulceraglastrica"value="si">
+                                        <label class="form-check-label" >Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
-                                        <label class="form-check-label">No</label>
+                                        <input class="form-check-input" type="radio" name="ulceraglastrica"value="no" checked>
+                                        <label class="form-check-label" >No</label>
                                       </div>
                           
                                     </div>
@@ -294,11 +294,11 @@
                                     <div class="card">
                                     <label for="cedula">Convulciones</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="convulciones" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="convulciones" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -310,11 +310,11 @@
                                     <div class="card">
                                     <label for="cedula">Cáncer</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="cancer" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="cancer"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -325,11 +325,11 @@
                                     <div class="card">
                                     <label for="cedula">TVP</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="tvp" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="tvp" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -340,11 +340,11 @@
                                     <div class="card">
                                     <label for="cedula">Trastornos Tiroideos</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="trastornostiroideos" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="trastornostiroideos" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -357,11 +357,11 @@
                                     <div class="card">
                                     <label for="cedula">Traumas Recientes</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="traumasrecientes" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="traumasrecientes" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -373,11 +373,11 @@
                                     <div class="card">
                                     <label for="cedula">Trastornos Psiquiatricos</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="trastornospsiquiatricos" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="trastornospsiquiatricos" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -389,11 +389,11 @@
                                     <div class="card">
                                     <label for="cedula">Historia de sangrado en la familia</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="sangradoenlafamilia" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="sangradoenlafamilia" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -404,13 +404,13 @@
 <!-- radio -->
                                     <div class="form-group p-2">
                                     <div class="card">
-                                    <label for="cedula">transfuciones previas</label>
+                                    <label for="cedula">Transfuciones previas</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="transfucionesprevias" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="transfucionesprevias"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -420,13 +420,13 @@
 <!-- radio -->
                                     <div class="form-group p-2">
                                     <div class="card">
-                                    <label for="cedula">consumo previo de hematinicos</label>
+                                    <label for="cedula">Consumo previo de hematinicos</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="consumohematinicos" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="consumohematinicos" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -436,13 +436,13 @@
                                   <!-- radio -->
                                     <div class="form-group p-2">
                                     <div class="card">
-                                    <label for="cedula">alergia a medicamentos</label>
+                                    <label for="cedula">Alergia a medicamentos</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="alergiaamedicamentos" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="alergiaamedicamentos" value="no" checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -453,7 +453,7 @@
                                       <div class="form-group col-sm-12 col-md-4">
                                           <label for="celular">En caso de alguna enfermedad mencionar y tratamiento de la misma</label>
                                           
-                                          <textarea id="w3review" name="w3review" rows="4" cols="50">En caso de alguna enfermedad mencionar y tratamiento de la misma
+                                          <textarea id="otros" name="otros" rows="4" cols="50">En caso de alguna enfermedad mencionar y tratamiento de la misma
                                           </textarea>
                                           </div>
 
@@ -479,11 +479,11 @@
                                     <div class="card">
                                     <label for="cedula">Tabáquicos</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="HTA">
+                                        <input class="form-check-input" type="radio" name="tabaquicos"value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="HTA" checked>
+                                        <input class="form-check-input" type="radio" name="tabaquicos" value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -496,11 +496,11 @@
                                     <div class="card">
                                     <label for="cedula">Alcoholicos</label>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus">
+                                        <input class="form-check-input" type="radio" name="alcoholicos" value="si">
                                         <label class="form-check-label">Si</label>
                                       </div>
                                       <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="mellitus" checked>
+                                        <input class="form-check-input" type="radio" name="alcoholicos"  value="no"checked>
                                         <label class="form-check-label">No</label>
                                       </div>
                           
@@ -509,6 +509,126 @@
 
                                 <!-- radio -->
                                     <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Cafeinicos</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="cafeinicos" value="si">
+                                        <label class="form-check-label">Si</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="cafeinicos"  value="no"checked>
+                                        <label class="form-check-label">No</label>
+                                      </div>
+                                       <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="cafeinicos" value="ocacional" checked>
+                                        <label class="form-check-label">Ocacional</label>
+                                      </div>
+                          
+                                    </div>
+                                  </div>
+
+
+                                <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Drogas</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="drogas" value="si"> 
+                                        <label class="form-check-label">Si</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="drogas" value="no" checked>
+                                        <label class="form-check-label">No</label>
+                                      {{-- </div>
+                                       <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="evc" checked>
+                                        <label class="form-check-label">Ocacional</label>
+                                      </div> --}}
+                          
+                                    </div>
+                                  </div>
+                                  </div>
+
+                                  
+                                <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Hooka</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="hooka" value="si">
+                                        <label class="form-check-label">Si</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="hooka" value="no" checked>
+                                        <label class="form-check-label">No</label>
+                                      </div>
+                                       {{-- <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="evc" checked>
+                                        <label class="form-check-label">Ocacional</label>
+                                      </div> --}}
+                          
+                                    </div>
+                                  </div>
+                          </div>
+
+
+
+
+
+
+
+
+                                 
+                           
+                        </div>
+                    </div>
+                    {{-- </div> --}}
+
+                    <div class="card card-primary">
+                              <div class="card-header">
+                                <h3 class="card-title">Examen Funcional </h3>
+                              </div>
+                              <!-- /.card-header -->
+                              
+                                <div class="card-body">
+                                  <div class="row">
+                                      
+                                        
+                                       <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Estado de ánimo</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="estadodeanimo"  value="bueno"checked>
+                                        <label class="form-check-label">Bueno</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="estadodeanimo"  value="decaido">
+                                        <label class="form-check-label">Decaido</label>
+                                      </div>
+                          
+                                    </div>
+                                  </div>
+                                {{-- </div>
+                                </div> --}}
+   <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Dolor Toráxico</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="dolortoraxico" value="si">
+                                        <label class="form-check-label">Si</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="dolortoraxico"  value="no"checked>
+                                        <label class="form-check-label">No</label>
+                                      </div>
+                          
+                                    </div>
+                                  </div>
+
+                                <!-- radio -->
+                                    {{-- <div class="form-group p-2">
                                     <div class="card">
                                     <label for="cedula">Cafeinicos</label>
                                       <div class="form-check">
@@ -525,12 +645,150 @@
                                       </div>
                           
                                     </div>
+                                  </div> --}}
+
+
+                                <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Tos</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="tos" value="si">
+                                        <label class="form-check-label">Si</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="tos" value="no" checked>
+                                        <label class="form-check-label">No</label>
+                                      {{-- </div>
+                                       <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="evc" checked>
+                                        <label class="form-check-label">Ocacional</label>
+                                      </div> --}}
+                          
+                                    </div>
                                   </div>
+                                  </div>
+
+                                  
+                                <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Disnea</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="disnea" value="si">
+                                        <label class="form-check-label">Si</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="disnea" value="no" checked>
+                                        <label class="form-check-label">No</label>
+                                      </div>
+                                       {{-- <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="evc" checked>
+                                        <label class="form-check-label">Ocacional</label>
+                                      </div> --}}
+                          
+                                    </div>
+                                  </div>
+
+                                   <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Ortopnea</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="ortopnea" value="si">
+                                        <label class="form-check-label">Si</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="ortopnea"  value="no"checked>
+                                        <label class="form-check-label">No</label>
+                                      </div>
+                                       {{-- <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="evc" checked>
+                                        <label class="form-check-label">Ocacional</label>
+                                      </div> --}}
+                          
+                                    </div>
+                                  </div>
+
+ <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">DPN</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="dpn" value="si">
+                                        <label class="form-check-label">Si</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="dpn" value="no"checked>
+                                        <label class="form-check-label" >No</label>
+                                      </div>
+                                       {{-- <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="evc" checked>
+                                        <label class="form-check-label">Ocacional</label>
+                                      </div> --}}
+                          
+                                    </div>
+                                  </div>
+
+ <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Edema de Ms Is</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="edemademsis" value="si">
+                                        <label class="form-check-label">Si</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="edemademsis" value="no" checked>
+                                        <label class="form-check-label">No</label>
+                                      </div>
+                                       {{-- <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="evc" checked>
+                                        <label class="form-check-label">Ocacional</label>
+                                      </div> --}}
+                          
+                                    </div>
+                                  </div>
+
+
+ <!-- radio -->
+                                    <div class="form-group p-2">
+                                    <div class="card">
+                                    <label for="cedula">Capacidad Funcional</label>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="capacidadfuncional" value="buena">
+                                        <label class="form-check-label">METs>=4(Buena)</label>
+                                      </div>
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="capacidadfuncional" value="pobre" checked>
+                                        <label class="form-check-label">METs<=4(pobre)</label>
+                                      </div>
+                                       {{-- <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="evc" checked>
+                                        <label class="form-check-label">Ocacional</label>
+                                      </div> --}}
+                          
+                                    </div>
+                                  </div>
+
+
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
 
                                  
                            
                         </div>
-                    </div>
+                    
                     {{-- </div> --}}
         </div>
         <!-- /.card-body -->

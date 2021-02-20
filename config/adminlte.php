@@ -45,7 +45,7 @@ return [
     |
     */
 
-    'logo' => '<b>Dr.</b> Joubert',
+    'logo' => '<b>Dr.</b> Taveras',
     'logo_img' => 'vendor/adminlte/dist/img/logo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -265,12 +265,22 @@ return [
                     'text' => 'Registrar Pacientes',
                     'route'  => 'crearpaciente',
                 ],
+
+                [
+                    'text' => 'Recetas',
+                    'icon'    => 'fas fa-fw fa-capsules',
+                    'url'  => '#',
+                ],
+                [
+                    'text' => 'Vademecum',
+                    'url'  => '#',
+                ],
             ],
         ],
 
         [
             'text'    => 'Expediente',
-            'icon'    => 'fas fa-fw fa-user',
+            'icon'    => 'fas fa-fw fa-book-medical',
             'submenu' => [
                 [
                     'text' => 'Ver Expedientes',
@@ -281,6 +291,26 @@ return [
                     'text' => 'Crear Expediente',
                     'route'  => 'crearexpedientes',
                 ],
+            ],
+        ],
+
+        [
+            'text'    => 'Mantenimientos',
+            'icon'    => 'fas fa-fw fa-cog',
+            'submenu' => [
+                [
+                    'text' => 'Seguro Médico',
+                    // 'route'  => 'verexpedientes',
+                    'url'  => '#',
+                    
+
+                ],
+                
+               
+                // [
+                //     'text' => 'Crear Expediente',
+                //     'route'  => 'crearexpedientes',
+                // ],
             ],
         ],
         // ['header' => 'labels'],
