@@ -289,7 +289,7 @@ return [
                
                 [
                     'text' => 'Crear Expediente',
-                    'route'  => 'crearexpedientes',
+                    'route'  => 'antecedentes.create',
                 ],
             ],
         ],

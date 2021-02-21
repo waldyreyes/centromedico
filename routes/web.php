@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route:: resource('antecedentes', 'AntecedentController')->names('antecedentes');
+
 Route::get('paciente', function () {
     return view('pacientes.index');
 })->name('verpacientes');
@@ -31,9 +33,9 @@ Route::get('expediente', function () {
 })->name('verexpedientes');
 
 
-Route::get('expediente/create', function () {
-    return view('expedientes.create');
-})->name('crearexpedientes');
+// Route::get('antecedente/create', function () {
+//     return view('antecedente.create');
+// })->name('crearexpedientes');
 
 Auth::routes();
 
