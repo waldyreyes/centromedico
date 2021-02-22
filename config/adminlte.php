@@ -258,12 +258,14 @@ return [
             'submenu' => [
                 [
                     'text' => 'Ver Pacientes',
-                    'route'  => 'verpacientes',
+                    // 'route'  => 'verpacientes',
+                    'url'  => '#',
                 ],
                
                 [
                     'text' => 'Registrar Pacientes',
-                    'route'  => 'crearpaciente',
+                    // 'route'  => 'crearpaciente',
+                    'url'  => '#',
                 ],
 
                 [
@@ -284,7 +286,7 @@ return [
             'submenu' => [
                 [
                     'text' => 'Ver Expedientes',
-                    'route'  => 'verexpedientes',
+                    'route'  => 'antecedentes.index',
                 ],
                
                 [

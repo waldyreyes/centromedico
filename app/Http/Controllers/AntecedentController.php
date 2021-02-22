@@ -19,7 +19,13 @@ class AntecedentController extends Controller
      */
     public function index()
     {
-        //
+        $pacient_id=1; //aqui tienes que traer el id del paciente
+        $antecedente = Antecedent::where('pacient_id',$pacient_id)->orderBy('id')->paginate(10);
+        $psico= PsicologicalHabits::where('pacient_id',$pacient_id)->orderBy('id')->paginate(10);
+        $efuncional= FunctionalExamination::where('pacient_id',$pacient_id)->orderBy('id')->paginate(10);
+        // return $antecedente;
+        
+        return view('antecedentes.index', compact('antecedente','psico', 'efuncional'));
     }
 
     /**
@@ -46,6 +52,7 @@ class AntecedentController extends Controller
         $ide= new Identification;
         $hab=new PsicologicalHabits;
 
+       
         $medic_id =1;//ojo  variable temporal hasta que se ponga el id del medico logueado
         $pacient_id=1;//ojo  variable temporal hasta que se ponga el id del paciente
         
@@ -112,12 +119,27 @@ class AntecedentController extends Controller
         $hab->pacient_id=$pacient_id;
 
         //hasta aqui los habigos psicologicos
+         $ant= Antecedent::where('pacient_id', $pacient_id)->count(); //para obtener el producto que ha comprado el usuario para la siguiente consulta
+        
+        if ($ant) {
+            
+            $antecedente = Antecedent::where('pacient_id',$pacient_id)->orderBy('id')->paginate(10);
+            $psico= PsicologicalHabits::where('pacient_id',$pacient_id)->orderBy('id')->paginate(10);
+            $efuncional= FunctionalExamination::where('pacient_id',$pacient_id)->orderBy('id')->paginate(10);
+            // return $antecedente;
+            
+            return view('antecedentes.index', compact('antecedente','psico', 'efuncional'));
+            
+        } else {
+            # code...
 
-        $ante->save();//para guardar el antecedente o expediente
-        $func->save(); //para guardar el examen funcional
-        $ide->save();//para guardar la identificacion
-        $hab->save();//para guardar los habitos psicologicos
+            $ante->save();//para guardar el antecedente o expediente
+            $func->save(); //para guardar el examen funcional
+            $ide->save();//para guardar la identificacion
+            $hab->save();//para guardar los habitos psicologicos
 
+            return redirect()->route('antecedentes.create')->with('datos','Registro creado correctamente');
+        }
     }
 
     /**

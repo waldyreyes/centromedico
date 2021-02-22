@@ -3,6 +3,21 @@
 @section('title', 'Dashboard')
 
 @section('content_header')
+{{-- para el mensaje de confirmacion de guardado  --}}
+        @if (session('datos'))
+        {{-- <div class="alert alert-success alert-dismissible fade show" role="alert" >
+          {{session('datos')}}
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close"></button>
+        </div> --}}
+        
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{session('datos')}}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+      @endif
+
     <h1>Crear Expediente</h1>
 @stop
 <form action="{{ route('antecedentes.store') }}" method="POST"  enctype="multipart/form-data">
@@ -795,8 +810,7 @@
         <!-- /.card-body -->
         <div class="card-footer">
 
-                <a class="btn btn-danger" href="http://www.wreyesenlinea.com/superwi/public/admin/user">cancelar</a>
-                
+               
                 <input type="submit" value="Guardar" class="btn btn-primary float-right">
         </div>
         <!-- /.card-footer-->

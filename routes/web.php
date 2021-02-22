@@ -19,18 +19,18 @@ Route::get('/', function () {
 
 Route:: resource('antecedentes', 'AntecedentController')->names('antecedentes');
 
-Route::get('paciente', function () {
-    return view('pacientes.index');
-})->name('verpacientes');
+// Route::get('paciente', function () {
+//     return view('pacientes.index');
+// })->name('verpacientes');
 
 
-Route::get('paciente/create', function () {
-    return view('pacientes.create');
-})->name('crearpaciente');
+// Route::get('paciente/create', function () {
+//     return view('pacientes.create');
+// })->name('crearpaciente');
 
-Route::get('expediente', function () {
-    return view('expedientes.index');
-})->name('verexpedientes');
+// Route::get('expediente', function () {
+//     return view('expedientes.index');
+// })->name('verexpedientes');
 
 
 // Route::get('antecedente/create', function () {
